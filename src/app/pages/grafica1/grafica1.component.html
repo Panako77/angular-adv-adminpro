@@ -1,1 +1,40 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+
+        <app-donut
+            titulo="Ventas"
+            [colors]=""
+            [chartType]="'doughnut'"
+        >
+        </app-donut>
+
+    </div>
+
+    <div class="col-6">
+  
+        <app-donut
+            [data]="data1"
+            [labels]="labels1"
+        ></app-donut>
+
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <app-donut
+            [data]=""
+            [labels]=""
+            [colors]="">
+        </app-donut>
+    </div>
+
+    <div class="col-6">
+        <app-donut
+            [data]=""
+            [labels]=""
+            [colors]="">
+        </app-donut>
+    </div>
+</div>
+

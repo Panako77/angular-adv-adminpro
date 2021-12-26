@@ -15,7 +15,7 @@ const routes: Routes = [
 
   // {path: 'dashboard', PageRouting},
   // {path: 'auth', AuthRouting},
-  {path: '', redirectTo: '/Dashboard', pathMatch: 'full'},
+  {path: '', redirectTo: '/dashboard', pathMatch: 'full'},
 
   {path: '**', component: NopagefoundComponent},
 ]
